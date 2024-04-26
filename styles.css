@@ -1,0 +1,117 @@
+/* Definições Globais */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto; /* Adicionei margem superior e inferior */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos do Formulário */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Estilos dos Campos de Entrada e Botão */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+button {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #007bff; /* Aumentei a largura da borda para ser mais visível */
+    border-radius: 5px;
+    background-color: transparent; /* Deixei o fundo transparente */
+    color: #007bff; /* Cor do texto */
+    transition: background-color 0.3s, color 0.3s; /* Adicionei transição para a cor de fundo e cor do texto */
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos dos Links */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos do Cabeçalho, Navegação e Rodapé */
+header, footer {
+    background-color: #222; /* Cor mais escura para o cabeçalho e rodapé */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+/* Estilo das seções */
+section.half-screen {
+    width: 45%; /* Reduzindo um pouco a largura das seções */
+    float: left;
+    background-color: #f5f5f5; /* Cor de fundo mais clara */
+    padding: 20px; /* Adicionando espaçamento interno uniforme */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombreamento sutil */
+    border-radius: 5px; /* Borda arredondada */
+    overflow: hidden;
+}
+
+/* Estilo da imagem */
+section.half-screen img {
+    display: block;
+    width: 100%; /* Defina a largura máxima da imagem como 100% */
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho máximo da seção */
+    height: auto;
+    border-radius: 5px; /* Borda arredondada */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    margin-bottom: 10px; /* Adicionando espaçamento inferior */
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+aside {
+    float: right;
+    width: 30%;
+}
+
+footer {
+    clear: both;
+}
